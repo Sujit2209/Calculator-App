@@ -106,6 +106,22 @@ public class MainActivity extends AppCompatActivity {
                 text=view2.getText().toString()+button9.getText().toString();
                 view2.setText(text);
             }});
+        final Button buttondot=findViewById(R.id.dot_button);
+        buttondot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                text=view2.getText().toString()+buttondot.getText().toString();
+                view2.setText(text);
+            }});
+        final Button buttonnegative = findViewById(R.id.negative_button);
+        buttonnegative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String negate="-";
+                text=negate+view2.getText().toString();
+                view2.setText(text);
+            }
+        });
         //Back Button
         final Button buttonback = findViewById(R.id.back_button);
         buttonback.setOnClickListener(new View.OnClickListener() {

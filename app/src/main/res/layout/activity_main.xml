@@ -14,7 +14,7 @@
         android:textColor="@color/white"
         android:textSize="40sp"
         android:layout_marginTop="15dp"
-        android:text="100"
+        android:text=""
         android:textAlignment="viewEnd"/>
     <TextView
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         android:textColor="@color/white"
         android:textSize="40sp"
         android:layout_marginTop="15dp"
-        android:text="100"
+        android:text=""
         android:textAlignment="viewEnd"
         android:layout_below="@id/view1"/>
     <Button
