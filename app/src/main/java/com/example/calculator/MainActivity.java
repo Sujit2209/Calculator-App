@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 first=Double.parseDouble((String) view2.getText());
                 primary=String.format("%.2f",first);
                 view1.setText(primary);
-                view2.setText("");
+                view2.setText(" ");
                 operation="%";
             }
         });
